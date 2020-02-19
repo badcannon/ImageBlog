@@ -1,0 +1,22 @@
+*{
+  box-sizing:border-box;
+}
+
+img {
+  float: left;
+  /* to disrupt the normal flow of document that is stacking up one below another 
+    also by floating left it just stacks horizontally left with no whitespace */
+  width: 30%;
+  /* To fit 3 pic in one row */
+  margin: 1.66%;
+  /* this is done  */
+} 
+
+h1 {
+  font-family: cursive;
+  margin-left: 1.66%;
+  border-bottom: 2px solid whitesmoke;
+  width: 30%;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
